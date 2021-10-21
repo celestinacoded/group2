@@ -3,8 +3,11 @@ import styled from 'styled-components'
 import img from "./img/hero2.png"
 import logo1 from "./img/logo4.jpeg"
 import logo2 from "./img/logo5.jpeg"
-import logo3 from "./img/logo2.jpeg"
-import logo4 from "./img/logo3.jpeg"
+import logo3 from "./img/logo3.jpeg"
+import logo4 from "./img/logo2.jpeg"
+
+
+
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 const Tinawork = () => {
@@ -27,6 +30,7 @@ const Tinawork = () => {
             <Logo2 src={logo2}/>
             <Logo3 src={logo3}/>
             <Logo4 src={logo4}/>
+            
             </Div>
         
         </Wrapper>  
@@ -40,13 +44,13 @@ const Container = styled.div`
 width: 100%;
 height: 100%;
 min-height:90vh;
-background-colour: #FFFFFF;
+background-color: #ECE8FF;
 
 `;
 
 const Wrapper = styled.div`
 width: 100%;
-hight: 80vh;
+height: 100%;
 padding-Top: 100px;
 align-items: center;
 `;
@@ -125,7 +129,7 @@ padding-bottom: 20px;
 `;
 const Logo1 = styled.img`
 width: 100px;
-height: 40px;
+height: 60px;
 padding: 15px;
 
 
@@ -134,28 +138,27 @@ padding: 15px;
 const Logo2 = styled.img`
 width: 200px;
 object-fit: contain;
-height: 60px;
+height: 70px;
 
 `;
 const Logo3 = styled.img`
-width:100px;
-height: 80px;
+width:120px;
+height: 50px;
+padding-top: 30px;
 
 
 `;
 const Logo4 = styled.img`
-width: 90px;
-height: 18px;
-padding-top: 25px;
-
-
+width: 150px;
+height: 100px;
+margin-left: 20px;
 `;
 
 const Div = styled.div`
 align-item: center;
 display: flex;
 height: 50px;
-width:60%;
+width:70%;
 justify-content: space-around;
 margin: 0 auto;
 `;

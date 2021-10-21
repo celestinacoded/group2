@@ -43,8 +43,8 @@ object-fit: cover;
 const Container = styled.div`
 width: 100%;
 height: 100%;
-min-height:90vh;
-background-color: #eeebff;
+min-height:100vh;
+
 
 
 
@@ -52,10 +52,13 @@ background-color: #eeebff;
 `;
 const Wrapper = styled.div`
 width: 100%;
+height: 100%;
+min-height: 100vh;
 display:flex;
 justify-content: space-between;
 align-item: center;
 padding-Top: 50px;
+background-image: linear-gradient(#ece8ff, #f2f0ff);
 
 `;
 
